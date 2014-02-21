@@ -18,5 +18,6 @@ function bigimport_civicrm_post ($op, $objectName, $objectId, &$objectRef) {
       echo " "; flush();
       $running_time = microtime(true);
     }
+  }
 }
 
