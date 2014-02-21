@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<extension key="be.muntpunt.bigimport" type="module">
+  <file>bigimport</file>
+  <name>Avoid crashing your imports with a timeout when you have big files</name>
+  <description>Tired of the dreaded timeout when you import big files? Simple workaround to increase the time your server will wait before aborting when you send it a big number of contacts to import</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Xavier Dutoit</author>
+    <email>xavier@tttp.eu</email>
+  </maintainer>
+  <releaseDate>2014-02-21</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+    <ver>4.3</ver>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments>Thanks to muntpunt.be to have let me share this extension</comments>
+  <civix>
+    <namespace>CRM/Bigimport</namespace>
+  </civix>
+</extension>
